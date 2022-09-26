@@ -11,7 +11,7 @@ const About = () => {
                 <div></div>
             </div>
 
-            <div className='max-w-[1000] w-full px-4 grid sm:grid-cols-2 gap-8'>
+            <div className='max-w-[1000] w-full px-4 mx-auto grid sm:grid-cols-2 gap-8'>
                 <div className='text-4xl font-bold sm:text-right'>
                     <p>Hi. I'm Imran, nice to meet you. Feel free to take a look around!</p>
                 </div>
