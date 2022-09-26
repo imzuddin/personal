@@ -39,11 +39,11 @@ const Navbar = () => {
         {/* Social Icons */}
         <div className='flex fixed flex-col top-[35%] left-0'>
             <ul>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px]'> <a href="" className='flex items-center justify-between w-full text-white'> LinkedIn <FaLinkedin size={40}/> </a> </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px]' > <a href="" className='flex items-center justify-between w-full text-white'> GitHub <FaGithub size={40}/> </a> </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px]'> <a href="" className='flex items-center justify-between w-full text-white'> Mail <HiOutlineMail size={40}/> </a> </li>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0072b1] rounded'> <a href="" className='flex items-center justify-between w-full text-white'> LinkedIn <FaLinkedin size={40}/> </a> </li>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#808080] rounded' > <a href="" className='flex items-center justify-between w-full text-white'> GitHub <FaGithub size={40}/> </a> </li>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#E8AA42] rounded'> <a href="" className='flex items-center justify-between w-full text-white'> Mail <HiOutlineMail size={40}/> </a> </li>
             </ul>
-        </div>
+        </div>      
 
     </div>
   )
