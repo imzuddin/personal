@@ -10,12 +10,10 @@ const Home = () => {
           <h2 className='text-4xl font-bold text-gray-400 sm:text-7xl'> I'm a Junior Software Engineer @P1T</h2>
           <p className='text-pink-600 py-4 max-w-[700]'> I am a student developer looking for oppertunities in the front-end and back-end development </p>
         </div>
-
         {/* <div>
-          <button className='text-white'>
-            View Work <HiArrowNarrowRight/>
-          </button>
+          <button className='text-black'> </button>
         </div> */}
+
     </div>
   )
 }
