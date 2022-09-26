@@ -37,7 +37,7 @@ const Navbar = () => {
         </ul>
 
         {/* Social Icons */}
-        <div className='flex fixed flex-col top-[35%] left-0'>
+        <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
                 {/* Add List item to add links to the side bar */}
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0072b1] rounded'> <a href="" className='flex items-center justify-between w-full text-white'> LinkedIn <FaLinkedin size={40}/> </a> </li>
