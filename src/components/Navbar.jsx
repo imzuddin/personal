@@ -40,8 +40,8 @@ const Navbar = () => {
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
                 {/* Add List item to add links to the side bar */}
-                <li className='w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0072b1] rounded'> <a href="" className='flex items-center justify-between w-full text-white'> LinkedIn <FaLinkedin size={30}/> </a> </li>
-                <li className='w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#808080] rounded' > <a href="" className='flex items-center justify-between w-full text-white'> GitHub <FaGithub size={30}/> </a> </li>
+                <li className='w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0072b1] rounded'> <a href="https://www.linkedin.com/in/imran-u" className='flex items-center justify-between w-full text-white'> LinkedIn <FaLinkedin size={30}/> </a> </li>
+                <li className='w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#808080] rounded' > <a href="https://github.com/immyz-3" className='flex items-center justify-between w-full text-white'> GitHub <FaGithub size={30}/> </a> </li>
                 <li className='w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#E8AA42] rounded'> <a href="" className='flex items-center justify-between w-full text-white'> Mail <HiOutlineMail size={30}/> </a> </li>
             </ul>
         </div>      
